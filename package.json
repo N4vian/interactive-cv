@@ -1,0 +1,30 @@
+{
+  "name": "interactive-cv",
+  "version": "1.0.0",
+  "description": "My CV in form of web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N4vian/interactive-cv.git"
+  },
+  "author": "Lukasz Sadurski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N4vian/interactive-cv/issues"
+  },
+  "homepage": "https://github.com/N4vian/interactive-cv#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "clean-css": "^4.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-sass": "^4.0.1"
+  }
+}
