@@ -1,0 +1,17 @@
+.slide-from-left {
+  animation: slideLeft 0.7s ease-out forwards, appears 0.7s ease-in forwards;
+  transform: translateX(-300px);
+  opacity: 0
+}
+
+@keyframes appears {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  100% {
+    transform: translateX(0);
+  }
+}

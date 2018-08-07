@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    console.log($(".navigation"));
-  $(".navigation").fadeIn(800);
+  $(".navigation").delay(700).fadeIn(800);
 
   });
