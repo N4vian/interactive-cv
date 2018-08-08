@@ -1,0 +1,16 @@
+#abilities-section {
+  height: 800px;
+}
+
+.abilities-section-header {
+  text-align: center;
+  background-color: $lightBlue;
+  border-radius: 13.5px;
+  padding: 1em 4em;
+  color: white;
+}
+
+.appear-on-scroll {
+  display: none;
+  opacity: 0;
+}
