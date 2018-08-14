@@ -15,6 +15,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   <script src="js/main.js"></script>
   <script src="js/smoothScroll.js"></script>
@@ -45,17 +47,17 @@
               </a> -->
                 <a class="nav-item nav-link" href="#data-section">Dane</a>
                 <span class="navigation-separator">
-                  <img src="img/navigation-separator.png" alt="White vertival line">
+                  <img src="img/navigation-separator.png" alt="White vertical line">
                 </span>
-                <a class="nav-item nav-link" href="#">Umiejętności</a>
+                <a class="nav-item nav-link" href="#abilities-section">Umiejętności</a>
                 <span class="navigation-separator">
-                  <img src="img/navigation-separator.png" alt="White vertival line">
+                  <img src="img/navigation-separator.png" alt="White vertical line">
                 </span>
-                <a class="nav-item nav-link" href="#">Doświadczenie</a>
+                <a class="nav-item nav-link" href="#expirience-section">Doświadczenie</a>
                 <span class="navigation-separator">
-                  <img src="img/navigation-separator.png" alt="White vertival line">
+                  <img src="img/navigation-separator.png" alt="White vertical line">
                 </span>
-                <a class="nav-item nav-link" href="#">Edukacja</a>
+                <a class="nav-item nav-link" href="#education-section">Edukacja</a>
               </div>
             </div>
           </nav>
@@ -69,15 +71,15 @@
         </div>
       </div>
     </header>
-    <section id="data-section" class="container-fluid d-flex flex-row flex-wrap mb-4em">
-      <div class="col-sm-12 col">
-        <div class="row">
-          <div class="col-sm-5 d-flex justify-content-center ">
-            <div class="section-title d-flex mb-3em">
-              <p>Dane</p>
-            </div>
+    <section id="data-section" class="container-fluid d-flex flex-column flex-wrap mb-4em">
+      <div class="row">
+        <div class="col-sm-5 d-flex justify-content-center ">
+          <div class="section-title d-flex mb-3em">
+            <p>Dane</p>
           </div>
         </div>
+      </div>
+      <div class="row">
         <div class="col-sm-5 d-flex flex-row justify-content-around">
           <div class="row d-flex data-items-containers">
             <div class="col-sm-6 data-items-container-left pr-3">
@@ -98,7 +100,7 @@
       <div class="col-sm-12 col-md-7"></div>
 
     </section>
-    <section id="abilities-section" class="container d-flex flex-column">
+    <section id="abilities-section" class="container-fluid d-flex flex-column mb-4em">
       <div class="row">
         <div class="col-sm-5 d-flex justify-content-center ">
           <div class="section-title d-flex mb-3em">
@@ -191,6 +193,240 @@
               <!-- <image  x="18" y="20.35" class="percentage">30%</image > -->
               <image x="8" y="8" xlink:href="./img/wp-logo.png" height="20" width="20" preserveAspectRatio="xMinYMax meet">
             </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="expirience-section" class="container-fluid d-flex flex-column pt-4em">
+      <div class="row">
+        <div class="col-sm-5 d-flex justify-content-center ">
+          <div class="section-title d-flex mb-3em">
+            <p>Doświadczenie</p>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-8 d-flex flex-column justify-content-center">
+          <div class="expirience-node mb-3em">
+            <div class="row d-flex">
+              <div class="col-sm-4 d-flex justify-content-start">
+                <div class="dot">
+                  <i class="fas fa-circle"></i>
+                </div>
+                <div class="expirience-title">
+                  <p>Golebniki.pl</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 d-flex justify-content-start">
+                <p class="expirience-description">
+                  Przygotowanie oraz optymalizacja grafiki na potrzeby projektu, kodowanie elementów nawigacji.
+                </p>
+              </div>
+              <div class="col-sm-12 d-flex justify-content-start">
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/html-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/css-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/sass-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/psd-logo.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8 d-flex flex-column justify-content-center">
+          <div class="expirience-node mb-3em">
+            <div class="row d-flex">
+              <div class="col-sm-4 d-flex justify-content-start">
+                <div class="dot">
+                  <i class="fas fa-circle"></i>
+                </div>
+                <div class="expirience-title">
+                  <p>Fullbull.pl</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 d-flex justify-content-start">
+                <p class="expirience-description">Konfiguracja systemu CMS (Wordpress), przygotowanie oraz optymalizacja grafiki na potrzeby projektu. na potrzeby
+                  projektu.
+                </p>
+              </div>
+              <div class="col-sm-12 d-flex justify-content-start">
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/html-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/css-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/sass-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/psd-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/wp-logo.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8 d-flex flex-column justify-content-center">
+          <div class="expirience-node mb-3em">
+            <div class="row d-flex">
+              <div class="col-sm-4 d-flex justify-content-start">
+                <div class="dot">
+                  <i class="fas fa-circle"></i>
+                </div>
+                <div class="expirience-title">
+                  <p>Felizajob.pl</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 d-flex justify-content-start">
+                <p class="expirience-description">
+                  Prace z pluginem contact form 7 oraz stworzenie skryptu obsługującego dodawanie więcej niż jednego pliku do formularza.
+                </p>
+              </div>
+              <div class="col-sm-12 d-flex justify-content-start">
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/html-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/sass-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/wp-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/js-logo.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8 d-flex flex-column justify-content-center">
+          <div class="expirience-node mb-3em">
+            <div class="row d-flex">
+              <div class="col-sm-4 d-flex justify-content-start">
+                <div class="dot">
+                  <i class="fas fa-circle"></i>
+                </div>
+                <div class="expirience-title">
+                  <p>Fmauto.pl</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 d-flex justify-content-start">
+                <p class="expirience-description">
+                  Zaprojektowanie layoutu w PS, zakodowanie layoutu i przeniesienie strony do Wordpress.
+                </p>
+              </div>
+              <div class="col-sm-12 d-flex justify-content-start">
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/html-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/css-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/js-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/sass-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/psd-logo.png" alt="">
+                </div>
+                <div class="d-flex justify-content-start expirience-tech-used-container">
+                  <img src="./img/wp-logo.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="education-section" class="container-fluid d-flex flex-column pt-4em">
+      <div class="row">
+        <div class="col-sm-5 d-flex justify-content-center ">
+          <div class="section-title d-flex mb-3em">
+            <p>Edukacja</p>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-8 d-flex flex-column justify-content-center">
+          <div class="expirience-node mb-3em">
+            <div class="row d-flex">
+              <div class="col-sm-4 d-flex justify-content-start">
+                <div class="dot">
+                  <i class="fas fa-circle"></i>
+                </div>
+                <div class="expirience-title">
+                  <p>Codecademy</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 d-flex justify-content-start">
+                <p class="expirience-description">
+                  Skończyłem kursy z Javascript, PHP, GIT
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8 d-flex flex-column justify-content-center">
+          <div class="expirience-node mb-3em">
+            <div class="row d-flex">
+              <div class="col-sm-4 d-flex justify-content-start">
+                <div class="dot">
+                  <i class="fas fa-circle"></i>
+                </div>
+                <div class="expirience-title">
+                  <p>Eduweb</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 d-flex justify-content-start">
+                <p class="expirience-description">
+                  Skończyłem kurs Photoshop do HMTL5 i CSS3, Javascript od podstaw, JQuery w praktyce
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8 d-flex flex-column justify-content-center">
+          <div class="expirience-node mb-3em">
+            <div class="row d-flex">
+              <div class="col-sm-4 d-flex justify-content-start">
+                <div class="dot">
+                  <i class="fas fa-circle"></i>
+                </div>
+                <div class="expirience-title">
+                  <p>Software Development Academy</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 d-flex justify-content-start">
+                <p class="expirience-description">
+                  W trakcie kursu Javascript + React od podstaw
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

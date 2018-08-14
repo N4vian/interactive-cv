@@ -3,13 +3,16 @@ $(document).ready(function() {
   $(window).scroll(function() {
     /* Check the location of each desired element */
     $(".appear-on-scroll").each(function(i) {
+      
       // var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-      var bottom_of_object = 1663;
+      var bottom_of_object = 1750;
       var bottom_of_window = $(window).scrollTop() + $(window).height();
       /* If the object is completely visible in the window, fade it it */
+      // console.log(bottom_of_object, bottom_of_window, bottom_of_window > bottom_of_object);
+      
       if (bottom_of_window > bottom_of_object) {
         $(this).css("display", "block");
-
+        
         $(this).animate({ opacity: "1" }, 500);
         $("#abilities-section").css("height", "auto");
       }

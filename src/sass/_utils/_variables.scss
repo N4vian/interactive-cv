@@ -1,5 +1,6 @@
 $darkBlue: #2f4152;
 $lightBlue: #68b3e4;
+$blue: #3699db;
 
 .mb-3em {
   margin-bottom: 3em;
@@ -9,6 +10,19 @@ $lightBlue: #68b3e4;
   margin-bottom: 4em;
 }
 
+.pt-3em {
+  padding-top: 3em;
+}
+
+.pt-4em {
+  padding-top: 4em;
+}
+
 .no-padding {
   padding: 0;
+}
+
+i {
+  color: #fff;
+  padding-right: 0.5em;
 }
